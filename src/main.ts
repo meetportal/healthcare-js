@@ -3,7 +3,7 @@
  */
 export const PATIENT_TYPE = 'patient'
 
-export type PatientResource = {
+export type PatientData = {
   ids: string[]
   firstName?: string
   lastName?: string
@@ -15,4 +15,10 @@ export type PatientResource = {
   address2?: string
   city?: string
   zip?: string
+}
+
+export type PatientResource = {
+  id: string
+  type: 'patient'
+  data?: PatientData
 }
