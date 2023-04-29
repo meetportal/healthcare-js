@@ -1,7 +1,8 @@
 {
   "name": "@meetportal/healthcare-js",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "type": "module",
+  "homepage": "https://meetportal.github.io/healthcare-js/",
   "repository": {
     "type": "git",
     "url": "https://github.com/meetportal/healthcare-js.git"
