@@ -25,7 +25,6 @@
     "build": "tsc && vite build",
     "build:d": "tsc src/*.ts --declaration --emitDeclarationOnly --declarationDir dist/",
     "docs": "typedoc --options typedoc.cjs src/main.ts && npm run copy:favicons",
-    "docs:deploy": "firebase deploy --only hosting:orango-healthcare-js",
     "copy:favicons": "cp -r ./favicon ./docs/favicon",
     "npm:publish": "npm publish --access public",
     "npm:dry-run": "npm publish --dry-run"
