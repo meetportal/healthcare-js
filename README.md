@@ -5,14 +5,14 @@ This library provides functionality for web applications integrating into Portal
 ### Installation
 
 ```bash
-npm install @orango/healthcare-js
+npm install @meetportal/portal-js @meetportal/healthcare-js
 ```
 
 ### Usage
 
 ```ts
 import { usePortalService } from '@meetportal/portal-js'
-import { PATIENT_TYPE, PATIENT_VERSION PatientResource } from '@meetportal/healthcare-js'
+import { PATIENT_TYPE, PATIENT_VERSION, PatientResource } from '@meetportal/healthcare-js'
 
 let resource: PatientResource = {
   id: '123',
